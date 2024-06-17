@@ -1,0 +1,42 @@
+body{
+    background-image: url("./resources/Home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+    
+#home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+button{
+    margin: 10px 0;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    outline: 2px solid rgb(107, 223, 107);
+    font-weight: bolder;
+    color: rgb(107, 223, 107);
+    background-color: rgb(27, 27, 110);
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(102, 199, 38);
+    font-size: 20px;
+}
+button:hover{
+    background-color: rgb(42, 130, 165);
+}
+a:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+}

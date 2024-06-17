@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rgistration</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+<body>
+	<div id="alert"></div>
+    <form action="" id="teacherForm">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required>
+        <label for="StudentID">Teacher ID</label>
+		<input type="text" id="studentid" name="studentid" required>
+		<label for="semister">Address</label>
+		<input type="text" id="address" name="address" required>
+		<label for="batch">Max.Degree</label>
+		<input type="text" id="degree" name="degree" required>
+		
+		<input type="submit" value="Register" id="submit">
+	</form>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+	<script src="teacher.js"></script>
+</body>
+</html>
